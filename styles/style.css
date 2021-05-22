@@ -26,21 +26,10 @@ h6 {
   width: 100%;
   position: relative;
   background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  padding-left: 64px;
   /* выше установили ограничения для секции */
-}
-
-.centered-block {
-  margin: auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
 }
 
 .logo {
@@ -50,42 +39,31 @@ h6 {
 .logo_place_header {
   position: absolute;
   top: 30px;
-  left: 64px;
 }
 
 .header__title {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 730px;
   justify-content: center;
-}
-
-.header__title_text {
   font-size: 102px;
   line-height: 96px;
   font-weight: 700;
   z-index: 2;
 }
 
-.title_place_header {
-  position: absolute;
-  left: 64px;
-}
-
 .header__subtitle {
-  position: absolute;
   width: 388px;
   z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .header__subtitle_place_header {
   position: absolute;
   bottom: 30px;
   left: 64px;
-}
-
-.header__subtitle_text {
-  line-height: 25px;
-  font-size: 18px;
 }
 
 .header__subtitle_link {
@@ -102,11 +80,6 @@ h6 {
   position: absolute;
   bottom: 0;
   right: 0;
-}
-
-.header__main-illustration_image {
-  height: 100%;
-  width: 100%;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -128,11 +101,14 @@ h6 {
 
 .description {
   padding-top: 100px;
+  display: flex;
 }
 
 .two-columns {
   width: 80%;
   justify-content: space-between;
+  display: flex;
+  margin: auto;
 }
 
 .two-columns_brief {
@@ -145,13 +121,14 @@ h6 {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .two-columns_main-text {
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 .two-columns_paragraph {
@@ -167,6 +144,8 @@ h6 {
 .digits {
   align-items: center;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .content_digits {
@@ -178,6 +157,7 @@ h6 {
   width: 60%;
   justify-content: center;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .section-title_size_m {
@@ -195,6 +175,7 @@ h6 {
 .subtitle {
   width: 60%;
   justify-content: center;
+  display: flex;
 }
 
 .subtitle_size_s {
@@ -208,6 +189,7 @@ h6 {
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 2;
+  display: flex;
 }
 
 .table__cell {
@@ -230,6 +212,8 @@ h6 {
 }
 
 .feynman {
+  display: flex;
+  flex-direction: column;
   height: 890px;
   width: 100%;
   background: #f2f2f2;
@@ -240,6 +224,7 @@ h6 {
   background-position-x: left;
   background-position-y: bottom;
   background-size: 867px 637px;
+
 }
 
 .feynman__title {
@@ -283,6 +268,8 @@ h6 {
 }
 
 .kaufman {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   padding-top: 90px;
@@ -317,6 +304,7 @@ h6 {
 }
 
 .footer {
+  display: flex;
   width: 100%;
   background: #1f1f1f;
   padding-top: 60px;
@@ -330,9 +318,15 @@ h6 {
 }
 
 .footer__columns {
+  display: flex;
   width: 90%;
   min-height: 350px;
   justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_copyright {
@@ -348,7 +342,13 @@ h6 {
   margin: 0 0 20px 0;
 }
 
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column-link {
+  display: flex
   align-items: center;
   line-height: 30px;
   font-size: 18px;
