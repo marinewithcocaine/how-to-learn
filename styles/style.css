@@ -35,11 +35,17 @@ h6 {
 
 .logo {
   z-index: 2;
+  height: 32px;
+  width: 183px;
 }
 
-.logo_place_header {
+.logo_place-header {
   position: absolute;
   top: 30px;
+}
+
+.logo_place-footer {
+  height: 35px;
 }
 
 .header__title {
@@ -113,19 +119,16 @@ h6 {
   margin: auto;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   width: 175px;
   align-items: flex-start;
-}
-
-.two-columns_brief_text {
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.two-columns_main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
@@ -133,12 +136,12 @@ h6 {
   flex-direction: column;
 }
 
-.two-columns_paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
 }
 
-.two-columns_span-accent {
+.two-columns__span-accent {
   display: inline-block;
   margin: 30px 0 30px 0;
 }
@@ -160,7 +163,7 @@ h6 {
   display: flex;
 }
 
-.section-title_size_m {
+.section-title_size-m {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bolder;
@@ -177,7 +180,7 @@ h6 {
   display: flex;
 }
 
-.subtitle_size_s {
+.subtitle_size-s {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -233,7 +236,7 @@ h6 {
   text-align: center;
 }
 
-.feynman__title_size_l {
+.feynman__title_size-l {
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
@@ -243,24 +246,24 @@ h6 {
   margin-top: 70px;
 }
 
-.feynman__subtitle_size_m {
+.feynman__subtitle_size-m {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
 }
 
 .feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-}
-
-.feynman__link_text {
   text-decoration: none;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+
+.feynman__link_place-feynman {
+  position: absolute;
+  top: 50%;
+  right: 48px;
 }
 
 .kaufman {
@@ -308,6 +311,7 @@ h6 {
   padding-top: 60px;
   padding-bottom: 40px;
   justify-content: center;
+  min-height: 350px;
 }
 
 .footer__author {
