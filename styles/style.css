@@ -18,10 +18,8 @@
   width: 100%;
   position: relative;
   background-color: #f2f2f2;
-  display: flex;
   align-items: center;
   padding-left: 64px;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
