@@ -144,7 +144,6 @@
   z-index: 2;
   margin: 0 0 20px 0;
   max-width: 60%;
-  justify-content: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bolder;
@@ -155,7 +154,7 @@
   color: white;
 }
 
-.subtitle {
+.section-subtitle {
   z-index: 2;
   margin: 0;
   max-width: 60%;
@@ -265,7 +264,7 @@
   background-image: url('/images/kaufman-triangle.svg');
 }
 
-.subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
 }
 
@@ -290,6 +289,7 @@
 
 .footer__author {
   box-sizing: border-box;
+  margin: 0;
   padding-top: 18px;
   padding-bottom: 18px;
   line-height: 25px;
