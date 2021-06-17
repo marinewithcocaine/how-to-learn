@@ -7,9 +7,9 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  transition: opacity 0.8s linear;
 }
 
 .feynman__link:hover {
   opacity: .7;
-  transition: 0.4s;
 }
